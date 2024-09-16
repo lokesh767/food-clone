@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal-Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="head">
+            <div class="hName" id="home-button">
+                <!-- <img class="logo" src="./file.png" alt="Logo"> -->
+                <h1 class="meal">Meal Finder</h1>
+            </div>
+            <div class="icon1">
+                <i id="hamburger" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <aside class="sidebar" id="sidebar">
+            <div id="categories"></div>
+            <div id="category-details"></div>
+            <div id="related-items"></div>
+        </aside>
+
+        <section class="searchbar">
+            <div>
+                <input id="search-input" class="search" type="text" name="search" placeholder="Search Recipes here" />
+            </div>
+            <div>
+                <i id="search-btn" class="fa-solid fa-magnifying-glass"></i>
+                <p class="fav">What's your favorite cuisine?</p>
+                <p class="fav1">Personalize your experience</p>
+            </div>
+        </section>
+        <section class="bg2">
+            <div>
+                <img class="bg1" src="./image/spaghetti-1932466_1280.jpg" alt="Background Image">
+            </div>
+        </section>
+        <section id="category-info"></section>
+
+         <section class="h3" id="h3"></section>
+        <section class="categories" id="categories-section"></section>
+        
+        <section class="meals" id="meals"></section>
+        
+         <section class="h4" id="h4"></section>
+        <section id="meal-info"></section>
+    </main>
+    <script src="Meal.js"></script>
+</body>
+</html>
